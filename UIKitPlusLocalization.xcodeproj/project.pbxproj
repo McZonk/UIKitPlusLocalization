@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		503600E41869B64300125C04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503600E31869B64300125C04 /* Foundation.framework */; };
+		503600F21869B64300125C04 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503600F11869B64300125C04 /* XCTest.framework */; };
+		503600F31869B64300125C04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503600E31869B64300125C04 /* Foundation.framework */; };
+		503600F51869B64300125C04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503600F41869B64300125C04 /* UIKit.framework */; };
+		503600F81869B64300125C04 /* libUIKitPlusLocalization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 503600E01869B64300125C04 /* libUIKitPlusLocalization.a */; };
+		503601261869B67900125C04 /* NSBundle+UIPLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 503601161869B67900125C04 /* NSBundle+UIPLocalization.m */; };
+		503601271869B67900125C04 /* NSBundle+UIPStandardLocalizations.m in Sources */ = {isa = PBXBuildFile; fileRef = 503601181869B67900125C04 /* NSBundle+UIPStandardLocalizations.m */; };
+		503601281869B67900125C04 /* UIButton+UIPLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5036011A1869B67900125C04 /* UIButton+UIPLocalization.m */; };
+		503601291869B67900125C04 /* UILabel+UIPLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 503601211869B67900125C04 /* UILabel+UIPLocalization.m */; };
+		5036012A1869B67900125C04 /* UIView+UIPAccessibilityLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 503601231869B67900125C04 /* UIView+UIPAccessibilityLocalization.m */; };
+		5036012B1869B67900125C04 /* UIView+UIPLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 503601251869B67900125C04 /* UIView+UIPLocalization.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		503600F61869B64300125C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 503600D81869B64300125C04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 503600DF1869B64300125C04;
+			remoteInfo = UIKitPlusLocalization;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		503600DE1869B64300125C04 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		503600E01869B64300125C04 /* libUIKitPlusLocalization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIKitPlusLocalization.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		503600E31869B64300125C04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		503600F01869B64300125C04 /* UIKitPlusLocalizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitPlusLocalizationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		503600F11869B64300125C04 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		503600F41869B64300125C04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		503601151869B67900125C04 /* NSBundle+UIPLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+UIPLocalization.h"; sourceTree = "<group>"; };
+		503601161869B67900125C04 /* NSBundle+UIPLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+UIPLocalization.m"; sourceTree = "<group>"; };
+		503601171869B67900125C04 /* NSBundle+UIPStandardLocalizations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+UIPStandardLocalizations.h"; sourceTree = "<group>"; };
+		503601181869B67900125C04 /* NSBundle+UIPStandardLocalizations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+UIPStandardLocalizations.m"; sourceTree = "<group>"; };
+		503601191869B67900125C04 /* UIButton+UIPLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+UIPLocalization.h"; sourceTree = "<group>"; };
+		5036011A1869B67900125C04 /* UIButton+UIPLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UIPLocalization.m"; sourceTree = "<group>"; };
+		5036011B1869B67900125C04 /* UIKitPlusLocalization-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKitPlusLocalization-Prefix.pch"; sourceTree = "<group>"; };
+		5036011C1869B67900125C04 /* UIKitPlusLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitPlusLocalization.h; sourceTree = "<group>"; };
+		503601201869B67900125C04 /* UILabel+UIPLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+UIPLocalization.h"; sourceTree = "<group>"; };
+		503601211869B67900125C04 /* UILabel+UIPLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+UIPLocalization.m"; sourceTree = "<group>"; };
+		503601221869B67900125C04 /* UIView+UIPAccessibilityLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIPAccessibilityLocalization.h"; sourceTree = "<group>"; };
+		503601231869B67900125C04 /* UIView+UIPAccessibilityLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIPAccessibilityLocalization.m"; sourceTree = "<group>"; };
+		503601241869B67900125C04 /* UIView+UIPLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIPLocalization.h"; sourceTree = "<group>"; };
+		503601251869B67900125C04 /* UIView+UIPLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIPLocalization.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		503600DD1869B64300125C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503600E41869B64300125C04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503600ED1869B64300125C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503600F21869B64300125C04 /* XCTest.framework in Frameworks */,
+				503600F51869B64300125C04 /* UIKit.framework in Frameworks */,
+				503600F31869B64300125C04 /* Foundation.framework in Frameworks */,
+				503600F81869B64300125C04 /* libUIKitPlusLocalization.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		503600D71869B64300125C04 = {
+			isa = PBXGroup;
+			children = (
+				503600E51869B64300125C04 /* UIKitPlusLocalization */,
+				503600E21869B64300125C04 /* Frameworks */,
+				503600E11869B64300125C04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		503600E11869B64300125C04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				503600E01869B64300125C04 /* libUIKitPlusLocalization.a */,
+				503600F01869B64300125C04 /* UIKitPlusLocalizationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		503600E21869B64300125C04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				503600E31869B64300125C04 /* Foundation.framework */,
+				503600F11869B64300125C04 /* XCTest.framework */,
+				503600F41869B64300125C04 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		503600E51869B64300125C04 /* UIKitPlusLocalization */ = {
+			isa = PBXGroup;
+			children = (
+				503601151869B67900125C04 /* NSBundle+UIPLocalization.h */,
+				503601161869B67900125C04 /* NSBundle+UIPLocalization.m */,
+				503601171869B67900125C04 /* NSBundle+UIPStandardLocalizations.h */,
+				503601181869B67900125C04 /* NSBundle+UIPStandardLocalizations.m */,
+				503601191869B67900125C04 /* UIButton+UIPLocalization.h */,
+				5036011A1869B67900125C04 /* UIButton+UIPLocalization.m */,
+				5036011B1869B67900125C04 /* UIKitPlusLocalization-Prefix.pch */,
+				5036011C1869B67900125C04 /* UIKitPlusLocalization.h */,
+				503601201869B67900125C04 /* UILabel+UIPLocalization.h */,
+				503601211869B67900125C04 /* UILabel+UIPLocalization.m */,
+				503601221869B67900125C04 /* UIView+UIPAccessibilityLocalization.h */,
+				503601231869B67900125C04 /* UIView+UIPAccessibilityLocalization.m */,
+				503601241869B67900125C04 /* UIView+UIPLocalization.h */,
+				503601251869B67900125C04 /* UIView+UIPLocalization.m */,
+			);
+			name = UIKitPlusLocalization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		503600DF1869B64300125C04 /* UIKitPlusLocalization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503601031869B64300125C04 /* Build configuration list for PBXNativeTarget "UIKitPlusLocalization" */;
+			buildPhases = (
+				503600DC1869B64300125C04 /* Sources */,
+				503600DD1869B64300125C04 /* Frameworks */,
+				503600DE1869B64300125C04 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIKitPlusLocalization;
+			productName = UIKitPlusLocalization;
+			productReference = 503600E01869B64300125C04 /* libUIKitPlusLocalization.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		503600EF1869B64300125C04 /* UIKitPlusLocalizationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503601061869B64300125C04 /* Build configuration list for PBXNativeTarget "UIKitPlusLocalizationTests" */;
+			buildPhases = (
+				503600EC1869B64300125C04 /* Sources */,
+				503600ED1869B64300125C04 /* Frameworks */,
+				503600EE1869B64300125C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				503600F71869B64300125C04 /* PBXTargetDependency */,
+			);
+			name = UIKitPlusLocalizationTests;
+			productName = UIKitPlusLocalizationTests;
+			productReference = 503600F01869B64300125C04 /* UIKitPlusLocalizationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		503600D81869B64300125C04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = McZonk;
+			};
+			buildConfigurationList = 503600DB1869B64300125C04 /* Build configuration list for PBXProject "UIKitPlusLocalization" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 503600D71869B64300125C04;
+			productRefGroup = 503600E11869B64300125C04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				503600DF1869B64300125C04 /* UIKitPlusLocalization */,
+				503600EF1869B64300125C04 /* UIKitPlusLocalizationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		503600EE1869B64300125C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		503600DC1869B64300125C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5036012B1869B67900125C04 /* UIView+UIPLocalization.m in Sources */,
+				503601291869B67900125C04 /* UILabel+UIPLocalization.m in Sources */,
+				503601261869B67900125C04 /* NSBundle+UIPLocalization.m in Sources */,
+				503601271869B67900125C04 /* NSBundle+UIPStandardLocalizations.m in Sources */,
+				5036012A1869B67900125C04 /* UIView+UIPAccessibilityLocalization.m in Sources */,
+				503601281869B67900125C04 /* UIButton+UIPLocalization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503600EC1869B64300125C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		503600F71869B64300125C04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 503600DF1869B64300125C04 /* UIKitPlusLocalization */;
+			targetProxy = 503600F61869B64300125C04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		503601011869B64300125C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		503601021869B64300125C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		503601041869B64300125C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UIKitPlusLocalization.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIKitPlusLocalization-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		503601051869B64300125C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UIKitPlusLocalization.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIKitPlusLocalization-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		503601071869B64300125C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIKitPlusLocalization/UIKitPlusLocalization-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIKitPlusLocalizationTests/UIKitPlusLocalizationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		503601081869B64300125C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIKitPlusLocalization/UIKitPlusLocalization-Prefix.pch";
+				INFOPLIST_FILE = "UIKitPlusLocalizationTests/UIKitPlusLocalizationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		503600DB1869B64300125C04 /* Build configuration list for PBXProject "UIKitPlusLocalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503601011869B64300125C04 /* Debug */,
+				503601021869B64300125C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		503601031869B64300125C04 /* Build configuration list for PBXNativeTarget "UIKitPlusLocalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503601041869B64300125C04 /* Debug */,
+				503601051869B64300125C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		503601061869B64300125C04 /* Build configuration list for PBXNativeTarget "UIKitPlusLocalizationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503601071869B64300125C04 /* Debug */,
+				503601081869B64300125C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 503600D81869B64300125C04 /* Project object */;
+}
