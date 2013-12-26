@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		503600E41869B64300125C04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503600E31869B64300125C04 /* Foundation.framework */; };
-		503600F21869B64300125C04 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503600F11869B64300125C04 /* XCTest.framework */; };
-		503600F31869B64300125C04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503600E31869B64300125C04 /* Foundation.framework */; };
-		503600F51869B64300125C04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503600F41869B64300125C04 /* UIKit.framework */; };
-		503600F81869B64300125C04 /* libUIKitPlusLocalization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 503600E01869B64300125C04 /* libUIKitPlusLocalization.a */; };
 		503601261869B67900125C04 /* NSBundle+UIPLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 503601161869B67900125C04 /* NSBundle+UIPLocalization.m */; };
 		503601271869B67900125C04 /* NSBundle+UIPStandardLocalizations.m in Sources */ = {isa = PBXBuildFile; fileRef = 503601181869B67900125C04 /* NSBundle+UIPStandardLocalizations.m */; };
 		503601281869B67900125C04 /* UIButton+UIPLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5036011A1869B67900125C04 /* UIButton+UIPLocalization.m */; };
@@ -19,16 +15,6 @@
 		5036012A1869B67900125C04 /* UIView+UIPAccessibilityLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 503601231869B67900125C04 /* UIView+UIPAccessibilityLocalization.m */; };
 		5036012B1869B67900125C04 /* UIView+UIPLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 503601251869B67900125C04 /* UIView+UIPLocalization.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		503600F61869B64300125C04 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 503600D81869B64300125C04 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 503600DF1869B64300125C04;
-			remoteInfo = UIKitPlusLocalization;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		503600DE1869B64300125C04 /* CopyFiles */ = {
@@ -45,7 +31,6 @@
 /* Begin PBXFileReference section */
 		503600E01869B64300125C04 /* libUIKitPlusLocalization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIKitPlusLocalization.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		503600E31869B64300125C04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		503600F01869B64300125C04 /* UIKitPlusLocalizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitPlusLocalizationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		503600F11869B64300125C04 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		503600F41869B64300125C04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		503601151869B67900125C04 /* NSBundle+UIPLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+UIPLocalization.h"; sourceTree = "<group>"; };
@@ -73,17 +58,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		503600ED1869B64300125C04 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				503600F21869B64300125C04 /* XCTest.framework in Frameworks */,
-				503600F51869B64300125C04 /* UIKit.framework in Frameworks */,
-				503600F31869B64300125C04 /* Foundation.framework in Frameworks */,
-				503600F81869B64300125C04 /* libUIKitPlusLocalization.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				503600E01869B64300125C04 /* libUIKitPlusLocalization.a */,
-				503600F01869B64300125C04 /* UIKitPlusLocalizationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,24 +129,6 @@
 			productReference = 503600E01869B64300125C04 /* libUIKitPlusLocalization.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		503600EF1869B64300125C04 /* UIKitPlusLocalizationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 503601061869B64300125C04 /* Build configuration list for PBXNativeTarget "UIKitPlusLocalizationTests" */;
-			buildPhases = (
-				503600EC1869B64300125C04 /* Sources */,
-				503600ED1869B64300125C04 /* Frameworks */,
-				503600EE1869B64300125C04 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				503600F71869B64300125C04 /* PBXTargetDependency */,
-			);
-			name = UIKitPlusLocalizationTests;
-			productName = UIKitPlusLocalizationTests;
-			productReference = 503600F01869B64300125C04 /* UIKitPlusLocalizationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,20 +151,9 @@
 			projectRoot = "";
 			targets = (
 				503600DF1869B64300125C04 /* UIKitPlusLocalization */,
-				503600EF1869B64300125C04 /* UIKitPlusLocalizationTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		503600EE1869B64300125C04 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		503600DC1869B64300125C04 /* Sources */ = {
@@ -225,22 +169,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		503600EC1869B64300125C04 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		503600F71869B64300125C04 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 503600DF1869B64300125C04 /* UIKitPlusLocalization */;
-			targetProxy = 503600F61869B64300125C04 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		503601011869B64300125C04 /* Debug */ = {
@@ -337,44 +266,6 @@
 			};
 			name = Release;
 		};
-		503601071869B64300125C04 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIKitPlusLocalization/UIKitPlusLocalization-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "UIKitPlusLocalizationTests/UIKitPlusLocalizationTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		503601081869B64300125C04 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIKitPlusLocalization/UIKitPlusLocalization-Prefix.pch";
-				INFOPLIST_FILE = "UIKitPlusLocalizationTests/UIKitPlusLocalizationTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -392,15 +283,6 @@
 			buildConfigurations = (
 				503601041869B64300125C04 /* Debug */,
 				503601051869B64300125C04 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		503601061869B64300125C04 /* Build configuration list for PBXNativeTarget "UIKitPlusLocalizationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				503601071869B64300125C04 /* Debug */,
-				503601081869B64300125C04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
